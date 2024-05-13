@@ -1027,11 +1027,6 @@ input#checkboxLabel:checked ~ .box span{
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-y-4 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1212,10 +1207,6 @@ input#checkboxLabel:checked ~ .box span{
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 .px-8{
   padding-left: 2rem;
@@ -1427,16 +1418,8 @@ input#checkboxLabel:checked ~ .box span{
 .opacity-100{
   opacity: 1;
 }
-.opacity-30{
-  opacity: 0.3;
-}
 .opacity-70{
   opacity: 0.7;
-}
-.shadow-btn{
-  --tw-shadow: 0px 1px 2px rgba(4, 10, 34, 0.15);
-  --tw-shadow-colored: 0px 1px 2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-inner{
   --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
@@ -1527,10 +1510,6 @@ input#checkboxLabel:checked ~ .box span{
   border-color: rgb(74 108 247 / var(--tw-border-opacity));
 }
 
-.hover\:bg-black\/90:hover{
-  background-color: rgb(18 23 35 / 0.9);
-}
-
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(74 108 247 / var(--tw-bg-opacity));
@@ -1538,10 +1517,6 @@ input#checkboxLabel:checked ~ .box span{
 
 .hover\:bg-primary\/5:hover{
   background-color: rgb(74 108 247 / 0.05);
-}
-
-.hover\:bg-primary\/80:hover{
-  background-color: rgb(74 108 247 / 0.8);
 }
 
 .hover\:bg-primary\/90:hover{
@@ -1561,10 +1536,6 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 0.8;
 }
 
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(74 108 247 / var(--tw-text-opacity));
@@ -1581,16 +1552,6 @@ input#checkboxLabel:checked ~ .box span{
 
 .hover\:opacity-100:hover{
   opacity: 1;
-}
-
-.hover\:opacity-70:hover{
-  opacity: 0.7;
-}
-
-.hover\:shadow-btn-hover:hover{
-  --tw-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
-  --tw-shadow-colored: 0px 1px 2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:shadow-one:hover{
@@ -1694,10 +1655,6 @@ input#checkboxLabel:checked ~ .box span{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-white\/10){
-  background-color: rgb(255 255 255 / 0.1);
-}
-
 :is(.dark .dark\:via-\[\#959CB183\]){
   --tw-gradient-to: rgb(149 156 177 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #959CB183 var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1768,10 +1725,6 @@ input#checkboxLabel:checked ~ .box span{
 
 :is(.dark .dark\:hover\:bg-primary\/5:hover){
   background-color: rgb(74 108 247 / 0.05);
-}
-
-:is(.dark .dark\:hover\:bg-white\/5:hover){
-  background-color: rgb(255 255 255 / 0.05);
 }
 
 :is(.dark .dark\:hover\:text-primary:hover){
@@ -1861,18 +1814,6 @@ input#checkboxLabel:checked ~ .box span{
     justify-content: flex-end;
   }
 
-  .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
   .sm\:p-11{
     padding: 2.75rem;
   }
@@ -1935,10 +1876,6 @@ input#checkboxLabel:checked ~ .box span{
 
   .md\:mb-12{
     margin-bottom: 3rem;
-  }
-
-  .md\:block{
-    display: block;
   }
 
   .md\:h-14{
@@ -2222,11 +2159,6 @@ input#checkboxLabel:checked ~ .box span{
   .lg\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .lg\:px-6{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .lg\:px-8{
