@@ -994,6 +994,9 @@ input#checkboxLabel:checked ~ .box span{
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+.flex-row{
+  flex-direction: row;
+}
 .flex-col{
   flex-direction: column;
 }
@@ -1011,6 +1014,12 @@ input#checkboxLabel:checked ~ .box span{
 }
 .justify-between{
   justify-content: space-between;
+}
+.gap-20{
+  gap: 5rem;
+}
+.gap-10{
+  gap: 2.5rem;
 }
 .gap-x-8{
   -moz-column-gap: 2rem;
@@ -1192,6 +1201,9 @@ input#checkboxLabel:checked ~ .box span{
 .p-8{
   padding: 2rem;
 }
+.p-0{
+  padding: 0px;
+}
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1264,6 +1276,18 @@ input#checkboxLabel:checked ~ .box span{
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.px-40{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .pb-11{
   padding-bottom: 2.75rem;
 }
@@ -1323,6 +1347,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .text-end{
   text-align: end;
+}
+.align-baseline{
+  vertical-align: baseline;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -2115,6 +2142,10 @@ input#checkboxLabel:checked ~ .box span{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:flex-col{
+    flex-direction: column;
+  }
+
   .lg\:gap-x-8{
     -moz-column-gap: 2rem;
          column-gap: 2rem;
@@ -2124,6 +2155,12 @@ input#checkboxLabel:checked ~ .box span{
     --tw-space-x-reverse: 0;
     margin-right: calc(3rem * var(--tw-space-x-reverse));
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
   }
 
   .lg\:border-none{
@@ -2179,6 +2216,11 @@ input#checkboxLabel:checked ~ .box span{
   .lg\:py-6{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pb-28{

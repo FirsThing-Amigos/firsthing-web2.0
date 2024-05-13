@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Video from "../Video";
-
 const Hero = () => {
   return (
     <>
@@ -11,7 +8,7 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
+              <div className="mx-auto max-w-[800px] text-center py-20">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Free and Open-Source Next.js Template for Startup & SaaS
                 </h1>
