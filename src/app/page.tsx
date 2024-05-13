@@ -10,7 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-
+import background from "../components/background/backgroundvideo"
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
   description: "This is Home for Startup Nextjs Template",
