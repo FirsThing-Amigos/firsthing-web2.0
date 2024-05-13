@@ -9,6 +9,7 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
+import backgroundvideo from "@/components/backgroundvideo";
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -32,3 +33,5 @@ export default function Home() {
     </>
   );
 }
+
+
