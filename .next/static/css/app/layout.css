@@ -814,6 +814,9 @@ input#checkboxLabel:checked ~ .box span{
 .aspect-\[37\/22\]{
   aspect-ratio: 37/22;
 }
+.aspect-\[77\/40\]{
+  aspect-ratio: 77/40;
+}
 .aspect-\[97\/60\]{
   aspect-ratio: 97/60;
 }
@@ -939,6 +942,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .max-w-\[70px\]{
   max-width: 70px;
+}
+.max-w-\[770px\]{
+  max-width: 770px;
 }
 .max-w-\[800px\]{
   max-width: 800px;
@@ -1135,8 +1141,14 @@ input#checkboxLabel:checked ~ .box span{
 .bg-opacity-10{
   --tw-bg-opacity: 0.1;
 }
+.bg-opacity-75{
+  --tw-bg-opacity: 0.75;
+}
 .bg-opacity-\[15\%\]{
   --tw-bg-opacity: 15%;
+}
+.bg-\[url\(\/images\/video\/shape\.svg\)\]{
+  background-image: url(/images/video/shape.svg);
 }
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -1152,6 +1164,15 @@ input#checkboxLabel:checked ~ .box span{
 }
 .to-transparent{
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-center{
+  background-position: center;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 .fill-current{
   fill: currentColor;
