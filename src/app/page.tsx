@@ -10,7 +10,6 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-import BackgroundVideo from '@/components/Background/BackgroundVideo';
 export const metadata: Metadata = {
   title: "FirsThing is to make our earth greener for our future generations.",
   description: "FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
