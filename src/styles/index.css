@@ -41,6 +41,13 @@
   object-fit: cover;
   z-index: -1; /* Ensure it's behind other content */
 }
-.iframe{
-  z-index: index 1;;
+.iframe-banner{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.iframe-banner iframe{
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
