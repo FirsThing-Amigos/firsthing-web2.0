@@ -31,3 +31,16 @@
     @apply opacity-100;
   }
 }
+/* components/BackgroundVideo.module.css */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure it's behind other content */
+}
+.iframe{
+  z-index: index 1;;
+}

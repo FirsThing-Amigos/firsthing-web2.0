@@ -10,18 +10,7 @@ const AboutSectionTwo = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+              
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -52,6 +41,9 @@ const AboutSectionTwo = () => {
                   Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
                   consectetur adipiscing elit setim.
                 </p>
+                <h3>
+                  here i have to make a complete new design
+                </h3>
               </div>
             </div>
           </div>
