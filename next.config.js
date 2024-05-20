@@ -20,6 +20,7 @@ const nextConfig = {
             value: "default-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn.sanity.io; media-src 'self'; connect-src 'self'",
           },
         ],
+        
       },
     ];
   },
