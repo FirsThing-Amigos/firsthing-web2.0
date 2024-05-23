@@ -679,11 +679,8 @@ input#checkboxLabel:checked ~ .box span{
 .m-0{
   margin: 0px;
 }
-.m-40{
-  margin: 10rem;
-}
-.m-4{
-  margin: 1rem;
+.m-10{
+  margin: 2.5rem;
 }
 .-mx-4{
   margin-left: -1rem;
@@ -705,26 +702,6 @@ input#checkboxLabel:checked ~ .box span{
   margin-top: 0.375rem;
   margin-bottom: 0.375rem;
 }
-.-mx-5{
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
-}
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.mx-40{
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-.mx-\[10\%\]{
-  margin-left: 10%;
-  margin-right: 10%;
-}
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -739,6 +716,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .mb-2{
   margin-bottom: 0.5rem;
+}
+.mb-20{
+  margin-bottom: 5rem;
 }
 .mb-3{
   margin-bottom: 0.75rem;
@@ -773,8 +753,8 @@ input#checkboxLabel:checked ~ .box span{
 .ml-4{
   margin-left: 1rem;
 }
-.ml-40{
-  margin-left: 10rem;
+.ml-\[10\%\]{
+  margin-left: 10%;
 }
 .mr-10{
   margin-right: 2.5rem;
@@ -784,9 +764,6 @@ input#checkboxLabel:checked ~ .box span{
 }
 .mr-4{
   margin-right: 1rem;
-}
-.mr-40{
-  margin-right: 10rem;
 }
 .mr-5{
   margin-right: 1.25rem;
@@ -803,131 +780,74 @@ input#checkboxLabel:checked ~ .box span{
 .mt-\[6px\]{
   margin-top: 6px;
 }
-.mr-\[40\]{
-  margin-right: 40;
-}
-.mr-\[40\%\]{
-  margin-right: 40%;
-}
-.mr-\[30\%\]{
-  margin-right: 30%;
-}
-.mr-\[20\%\]{
-  margin-right: 20%;
-}
-.mr-\[24\%\]{
-  margin-right: 24%;
-}
-.mr-\[23\%\]{
-  margin-right: 23%;
-}
-.mr-\[22\%\]{
-  margin-right: 22%;
+.ml-\[10\]{
+  margin-left: 10;
 }
 .ml-\[\]{
   margin-left: ;
 }
-.ml-\[22\]{
-  margin-left: 22;
-}
-.ml-\[22\%\]{
-  margin-left: 22%;
-}
-.ml-\[20\%\]{
-  margin-left: 20%;
-}
-.ml-20{
-  margin-left: 5rem;
-}
-.ml-0{
-  margin-left: 0px;
-}
-.ml-36{
-  margin-left: 9rem;
-}
-.ml-\[35px\]{
-  margin-left: 35px;
-}
-.ml-\[40\]{
-  margin-left: 40;
-}
-.ml-\[40px\]{
-  margin-left: 40px;
-}
-.ml-\[40em\]{
-  margin-left: 40em;
-}
-.ml-\[40rem\]{
-  margin-left: 40rem;
-}
-.ml-\[40\%\]{
-  margin-left: 40%;
-}
-.ml-\[100px\]{
-  margin-left: 100px;
-}
-.ml-\[10\]{
-  margin-left: 10;
-}
-.ml-\[10\%\]{
-  margin-left: 10%;
-}
-.ml-\[15\%\]{
-  margin-left: 15%;
-}
-.ml-\[14\%\]{
-  margin-left: 14%;
-}
-.ml-\[16\%\]{
-  margin-left: 16%;
-}
-.ml-\[17\%\]{
-  margin-left: 17%;
-}
-.mb-20{
-  margin-bottom: 5rem;
-}
-.mt-20{
-  margin-top: 5rem;
-}
-.mb-0{
-  margin-bottom: 0px;
-}
-.mb-\[20px\]{
-  margin-bottom: 20px;
-}
-.mb-\[30px\]{
-  margin-bottom: 30px;
-}
-.mt-\[20px\]{
-  margin-top: 20px;
-}
-.ml-\[20px\]{
-  margin-left: 20px;
-}
-.ml-\[0\%\]{
-  margin-left: 0%;
+.ml-\[100\]{
+  margin-left: 100;
 }
 .ml-\[100\%\]{
   margin-left: 100%;
 }
-.ml-\[90\%\]{
-  margin-left: 90%;
+.ml-\[0\%\]{
+  margin-left: 0%;
 }
-.ml-\[\%\]{
-  margin-left: %;
+.ml-\[50\%\]{
+  margin-left: 50%;
 }
-.ml-\[9\%\]{
-  margin-left: 9%;
+.ml-\[60\%\]{
+  margin-left: 60%;
 }
-.ml-\[95\%\]{
-  margin-left: 95%;
+.ml-\[40\%\]{
+  margin-left: 40%;
 }
-.ml-\[85\%\]{
-  margin-left: 85%;
+.ml-\[30\%\]{
+  margin-left: 30%;
 }
-.mt-0{
-  margin-top: 0px;
+.mt-40{
+  margin-top: 10rem;
+}
+.mt-20{
+  margin-top: 5rem;
+}
+.mt-10{
+  margin-top: 2.5rem;
+}
+.ml-\[20\%\]{
+  margin-left: 20%;
+}
+.mt-5{
+  margin-top: 1.25rem;
+}
+.ml-20{
+  margin-left: 5rem;
+}
+.ml-5{
+  margin-left: 1.25rem;
+}
+.ml-\[50\]{
+  margin-left: 50;
+}
+.mr-20{
+  margin-right: 5rem;
+}
+.mb-\[\]{
+  margin-bottom: ;
+}
+.mb-\[10\%\]{
+  margin-bottom: 10%;
+}
+.ml-6{
+  margin-left: 1.5rem;
+}
+.ml-7{
+  margin-left: 1.75rem;
+}
+.ml-8{
+  margin-left: 2rem;
 }
 .block{
   display: block;
@@ -947,9 +867,6 @@ input#checkboxLabel:checked ~ .box span{
 .hidden{
   display: none;
 }
-.aspect-\[25\/24\]{
-  aspect-ratio: 25/24;
-}
 .aspect-\[37\/22\]{
   aspect-ratio: 37/22;
 }
@@ -958,14 +875,6 @@ input#checkboxLabel:checked ~ .box span{
 }
 .aspect-\[97\/60\]{
   aspect-ratio: 97/60;
-}
-.size-10{
-  width: 2.5rem;
-  height: 2.5rem;
-}
-.size-40{
-  width: 10rem;
-  height: 10rem;
 }
 .h-0{
   height: 0px;
@@ -997,14 +906,14 @@ input#checkboxLabel:checked ~ .box span{
 .h-9{
   height: 2.25rem;
 }
+.h-\[15\%\]{
+  height: 15%;
+}
 .h-\[18px\]{
   height: 18px;
 }
 .h-\[1px\]{
   height: 1px;
-}
-.h-\[30px\]{
-  height: 30px;
 }
 .h-\[50px\]{
   height: 50px;
@@ -1021,44 +930,32 @@ input#checkboxLabel:checked ~ .box span{
 .h-px{
   height: 1px;
 }
-.h-\[30vh\]{
-  height: 30vh;
-}
-.h-\[20vh\]{
-  height: 20vh;
-}
-.h-\[10vh\]{
-  height: 10vh;
-}
-.h-\[20\%\]{
-  height: 20%;
+.h-40{
+  height: 10rem;
 }
 .h-\[\]{
   height: ;
 }
-.h-\[20\]{
-  height: 20;
+.h-\[30\]{
+  height: 30;
+}
+.h-\[30\%\]{
+  height: 30%;
+}
+.h-\[50\%\]{
+  height: 50%;
+}
+.h-1{
+  height: 0.25rem;
 }
 .h-\[10\%\]{
   height: 10%;
 }
-.h-\[10\]{
-  height: 10;
+.h-\[20\]{
+  height: 20;
 }
-.h-16{
-  height: 4rem;
-}
-.h-\[20px\]{
-  height: 20px;
-}
-.h-\[100px\]{
-  height: 100px;
-}
-.h-\[10px\]{
-  height: 10px;
-}
-.h-\[15\%\]{
-  height: 15%;
+.h-\[20vh\]{
+  height: 20vh;
 }
 .w-1\/2{
   width: 50%;
@@ -1090,6 +987,9 @@ input#checkboxLabel:checked ~ .box span{
 .w-9{
   width: 2.25rem;
 }
+.w-\[15\%\]{
+  width: 15%;
+}
 .w-\[250px\]{
   width: 250px;
 }
@@ -1102,38 +1002,35 @@ input#checkboxLabel:checked ~ .box span{
 .w-full{
   width: 100%;
 }
-.w-\[\]{
-  width: ;
-}
-.w-\[100px\]{
-  width: 100px;
-}
-.w-\[100vw\]{
-  width: 100vw;
+.w-40{
+  width: 10rem;
 }
 .w-\[100\]{
   width: 100;
 }
-.w-\[100v\]{
-  width: 100v;
+.w-\[30\]{
+  width: 30;
 }
-.w-\[100\%\]{
-  width: 100%;
+.w-\[30\%\]{
+  width: 30%;
 }
-.w-16{
-  width: 4rem;
+.w-\[50\%\]{
+  width: 50%;
 }
-.w-\[20px\]{
-  width: 20px;
-}
-.w-\[50px\]{
-  width: 50px;
+.w-0{
+  width: 0px;
 }
 .w-\[10\%\]{
   width: 10%;
 }
-.w-\[15\%\]{
-  width: 15%;
+.w-\[60\%\]{
+  width: 60%;
+}
+.w-\[\]{
+  width: ;
+}
+.w-\[40\%\]{
+  width: 40%;
 }
 .min-w-\[36px\]{
   min-width: 36px;
@@ -1143,9 +1040,6 @@ input#checkboxLabel:checked ~ .box span{
 }
 .max-w-\[360px\]{
   max-width: 360px;
-}
-.max-w-\[470px\]{
-  max-width: 470px;
 }
 .max-w-\[500px\]{
   max-width: 500px;
@@ -1173,12 +1067,6 @@ input#checkboxLabel:checked ~ .box span{
 }
 .max-w-full{
   max-width: 100%;
-}
-.max-w-md{
-  max-width: 28rem;
-}
-.flex-1{
-  flex: 1 1 0%;
 }
 .flex-shrink-0{
   flex-shrink: 0;
@@ -1225,17 +1113,23 @@ input#checkboxLabel:checked ~ .box span{
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-.flex-row{
-  flex-direction: row;
-}
 .flex-col{
   flex-direction: column;
 }
 .flex-wrap{
   flex-wrap: wrap;
 }
+.place-content-end{
+  place-content: end;
+}
+.items-end{
+  align-items: flex-end;
+}
 .items-center{
   align-items: center;
+}
+.justify-start{
+  justify-content: flex-start;
 }
 .justify-end{
   justify-content: flex-end;
@@ -1245,6 +1139,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .justify-between{
   justify-content: space-between;
+}
+.justify-items-end{
+  justify-items: end;
 }
 .gap-10{
   gap: 2.5rem;
@@ -1267,19 +1164,8 @@ input#checkboxLabel:checked ~ .box span{
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-x-6 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
 .overflow-hidden{
   overflow: hidden;
-}
-.overflow-x-auto{
-  overflow-x: auto;
-}
-.overflow-x-visible{
-  overflow-x: visible;
 }
 .rounded{
   border-radius: 0.25rem;
@@ -1295,6 +1181,16 @@ input#checkboxLabel:checked ~ .box span{
 }
 .rounded-sm{
   border-radius: 0.125rem;
+}
+.rounded-2xl{
+  border-radius: 1rem;
+}
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+.rounded-l{
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 .border{
   border-width: 1px;
@@ -1319,6 +1215,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .border-t-2{
   border-top-width: 2px;
+}
+.border-r-8{
+  border-right-width: 8px;
 }
 .border-body-color{
   --tw-border-opacity: 1;
@@ -1356,6 +1255,18 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 1;
   background-color: rgb(18 23 35 / var(--tw-bg-opacity));
 }
+.bg-blue-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+.bg-blue-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+.bg-blue-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+}
 .bg-body-color{
   --tw-bg-opacity: 1;
   background-color: rgb(120 130 147 / var(--tw-bg-opacity));
@@ -1378,25 +1289,29 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-gray-100{
+.bg-blue-300{
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
-.bg-bg-color-dark{
+.bg-blue-500{
   --tw-bg-opacity: 1;
-  background-color: rgb(23 28 40 / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.bg-blue-800{
+.bg-blue-700{
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
-.bg-blue-900{
+.bg-blue-100{
   --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
 }
-.bg-blue-950{
+.bg-blue-200{
   --tw-bg-opacity: 1;
-  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+.bg-blue-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 .\!bg-opacity-80{
   --tw-bg-opacity: 0.8 !important;
@@ -1419,6 +1334,11 @@ input#checkboxLabel:checked ~ .box span{
 .from-transparent{
   --tw-gradient-from: transparent var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-inherit{
+  --tw-gradient-from: inherit var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .via-\[\#D2D8E183\]{
@@ -1460,8 +1380,11 @@ input#checkboxLabel:checked ~ .box span{
 .p-8{
   padding: 2rem;
 }
-.p-4{
-  padding: 1rem;
+.p-10{
+  padding: 2.5rem;
+}
+.p-5{
+  padding: 1.25rem;
 }
 .px-0{
   padding-left: 0px;
@@ -1553,6 +1476,9 @@ input#checkboxLabel:checked ~ .box span{
 .pb-4{
   padding-bottom: 1rem;
 }
+.pb-5{
+  padding-bottom: 1.25rem;
+}
 .pb-6{
   padding-bottom: 1.5rem;
 }
@@ -1586,6 +1512,9 @@ input#checkboxLabel:checked ~ .box span{
 .pt-36{
   padding-top: 9rem;
 }
+.pt-5{
+  padding-top: 1.25rem;
+}
 .pt-8{
   padding-top: 2rem;
 }
@@ -1598,44 +1527,11 @@ input#checkboxLabel:checked ~ .box span{
 .pt-\[180px\]{
   padding-top: 180px;
 }
-.pl-40{
-  padding-left: 10rem;
-}
-.pr-40{
-  padding-right: 10rem;
-}
-.pr-20{
-  padding-right: 5rem;
-}
-.pl-20{
-  padding-left: 5rem;
-}
-.pt-20{
-  padding-top: 5rem;
-}
-.pb-20{
-  padding-bottom: 5rem;
-}
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-.pt-10{
-  padding-top: 2.5rem;
-}
-.pt-5{
-  padding-top: 1.25rem;
-}
-.pb-5{
-  padding-bottom: 1.25rem;
-}
 .text-center{
   text-align: center;
 }
 .text-end{
   text-align: end;
-}
-.font-mono{
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -1668,8 +1564,31 @@ input#checkboxLabel:checked ~ .box span{
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-9xl{
+  font-size: 8rem;
+  line-height: 1;
+}
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
 .font-bold{
   font-weight: 700;
+}
+.font-extrabold{
+  font-weight: 800;
 }
 .font-medium{
   font-weight: 500;
@@ -1677,8 +1596,14 @@ input#checkboxLabel:checked ~ .box span{
 .font-semibold{
   font-weight: 600;
 }
-.font-extrabold{
-  font-weight: 800;
+.font-thin{
+  font-weight: 100;
+}
+.font-normal{
+  font-weight: 400;
+}
+.font-light{
+  font-weight: 300;
 }
 .capitalize{
   text-transform: capitalize;
@@ -1724,6 +1649,38 @@ input#checkboxLabel:checked ~ .box span{
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(251 176 64 / var(--tw-text-opacity));
+}
+.text-blue-900{
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+.text-blue-700{
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+.text-blue-400{
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+.text-blue-50{
+  --tw-text-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-text-opacity));
+}
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -1784,10 +1741,6 @@ input#checkboxLabel:checked ~ .box span{
 .ring-primary{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 108 247 / var(--tw-ring-opacity));
-}
-.drop-shadow-three{
-  --tw-drop-shadow: drop-shadow(0px 5px 15px rgba(6, 8, 15, 0.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1999,10 +1952,6 @@ input#checkboxLabel:checked ~ .box span{
   --tw-shadow-colored: 0px 5px 10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-:is(.dark .dark\:drop-shadow-none){
-  --tw-drop-shadow: drop-shadow(0 0 #0000);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
 :is(.dark .dark\:hover\:border-primary:hover){
   --tw-border-opacity: 1;
   border-color: rgb(74 108 247 / var(--tw-border-opacity));
@@ -2073,40 +2022,12 @@ input#checkboxLabel:checked ~ .box span{
     height: 75px;
   }
 
-  .sm\:h-\[\]{
-    height: ;
-  }
-
-  .sm\:h-\[10\]{
-    height: 10;
-  }
-
-  .sm\:h-\[10v\]{
-    height: 10v;
-  }
-
-  .sm\:h-\[10vh\]{
-    height: 10vh;
-  }
-
-  .sm\:h-20{
-    height: 5rem;
-  }
-
-  .sm\:h-\[20vh\]{
-    height: 20vh;
-  }
-
   .sm\:w-1\/2{
     width: 50%;
   }
 
   .sm\:w-\[85px\]{
     width: 85px;
-  }
-
-  .sm\:w-\[100\%\]{
-    width: 100%;
   }
 
   .sm\:flex-row{
@@ -2180,8 +2101,28 @@ input#checkboxLabel:checked ~ .box span{
     margin-bottom: 3rem;
   }
 
-  .md\:mr-4{
-    margin-right: 1rem;
+  .md\:ml-\[10\%\]{
+    margin-left: 10%;
+  }
+
+  .md\:ml-20{
+    margin-left: 5rem;
+  }
+
+  .md\:ml-auto{
+    margin-left: auto;
+  }
+
+  .md\:mr-20{
+    margin-right: 5rem;
+  }
+
+  .md\:mr-5{
+    margin-right: 1.25rem;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
   }
 
   .md\:h-14{
@@ -2220,6 +2161,10 @@ input#checkboxLabel:checked ~ .box span{
     width: 66.666667%;
   }
 
+  .md\:w-\[40\%\]{
+    width: 40%;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2230,10 +2175,6 @@ input#checkboxLabel:checked ~ .box span{
 
   .md\:flex-row{
     flex-direction: row;
-  }
-
-  .md\:items-center{
-    align-items: center;
   }
 
   .md\:justify-end{
@@ -2295,10 +2236,6 @@ input#checkboxLabel:checked ~ .box span{
     padding-top: 0px;
   }
 
-  .md\:text-left{
-    text-align: left;
-  }
-
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -2316,6 +2253,16 @@ input#checkboxLabel:checked ~ .box span{
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
   }
 
   .md\:leading-tight{
@@ -2344,10 +2291,6 @@ input#checkboxLabel:checked ~ .box span{
     top: 110%;
   }
 
-  .lg\:m-0{
-    margin: 0px;
-  }
-
   .lg\:mb-12{
     margin-bottom: 3rem;
   }
@@ -2370,6 +2313,10 @@ input#checkboxLabel:checked ~ .box span{
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:ml-\[5\%\]{
+    margin-left: 5%;
   }
 
   .lg\:block{
@@ -2422,10 +2369,6 @@ input#checkboxLabel:checked ~ .box span{
 
   .lg\:w-auto{
     width: auto;
-  }
-
-  .lg\:w-1\/3{
-    width: 33.333333%;
   }
 
   .lg\:grid-cols-3{
@@ -2531,6 +2474,16 @@ input#checkboxLabel:checked ~ .box span{
     line-height: 1.75rem;
   }
 
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-9xl{
+    font-size: 8rem;
+    line-height: 1;
+  }
+
   .lg\:leading-relaxed{
     line-height: 1.625;
   }
@@ -2575,28 +2528,8 @@ input#checkboxLabel:checked ~ .box span{
     margin-right: 0.75rem;
   }
 
-  .xl\:mr-\[22\%\]{
-    margin-right: 22%;
-  }
-
-  .xl\:ml-20{
-    margin-left: 5rem;
-  }
-
   .xl\:flex{
     display: flex;
-  }
-
-  .xl\:h-\[20vh\]{
-    height: 20vh;
-  }
-
-  .xl\:h-\[20\]{
-    height: 20;
-  }
-
-  .xl\:h-\[20\%\]{
-    height: 20%;
   }
 
   .xl\:w-1\/3{

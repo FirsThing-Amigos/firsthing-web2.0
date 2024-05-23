@@ -7,6 +7,7 @@ const Features = () => {
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <SectionTitle
             title=" Our Solutions "
             paragraph=""
@@ -18,6 +19,7 @@ const Features = () => {
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
+        </div>
         </div>
       </section>
     </>
