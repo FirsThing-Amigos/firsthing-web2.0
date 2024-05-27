@@ -1,14 +1,25 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
-    <section className="pt-16">
+    <section className="pt-24 pb-24">
       <div className="container">
+    
+
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+          <div className="w-full ">
+          <SectionTitle
+          title="Our clients"
+          paragraph="From commercial buildings and residential complexes to industrial facilities, Firsthing serves a wide range of sectors looking for
+          smart energy solutions."
+          center
+          mb="80px"
+        />
+            <div className="flex flex-wrap items-center justify-between rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[30px] 2xl:py-[20px]">
+           
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}

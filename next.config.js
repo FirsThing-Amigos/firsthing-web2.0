@@ -7,6 +7,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.sanity.io",
         port: "",
+        pathname: "/**", // This line ensures all paths from cdn.sanity.io are allowed
       },
     ],
   },
