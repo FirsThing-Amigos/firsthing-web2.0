@@ -19,7 +19,7 @@ const AboutSectionTwo = () => {
     </p>
   );
   return (
-    <section className="py-16 md:py-20 lg:py-0">
+    <section id='works' className="sm:py-16 md:py-20 lg:py-0">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -27,7 +27,8 @@ const AboutSectionTwo = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <LottieImage className={"m-auto"} src={animationData} width={600} height={600} />
+              <LottieImage className={" m-auto max-w-full h-auto max-h-full sm:max-h-fit sm:h-auto sm:max-w-xl"} src={animationData} width={600} height={600} />
+           
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">

@@ -7,19 +7,19 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 h-screen  overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 sm:h-screen  overflow-hidden bg-white  dark:bg-gray-dark md:pb-[120px] md:pt-[150px] sm:pt-7 xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         
   <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
             <video className="absolute left-0 top-0 w-full"  src={'/images/video/videoplayback.mp4'} autoPlay loop muted />
-              <div className="relative mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-4xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS sadas
+              <div className="relative  pt-20  pb-12 sm:pt-0 mx-auto max-w-[100%] sm:max-w-[800px] text-center">
+                <h1 className="sm:mb-5 mb-2 font-bold leading-tight text-white dark:text-white sm:text-sm sm:leading-tight md:text-3xl md:leading-tight">
+                FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.
                 </h1>
        
-         <LottieImage className={"m-auto heroBannerBlink"} src={animationData} width={150} height={150} />
+         <LottieImage className={"m-auto heroBannerBlink w-12 h-12 sm:w-36 sm:h-36"} src={animationData}  />
                 {/* <p className="mb-12 text-base !leading-relaxed text-body-color text-white dark:text-white sm:text-lg md:text-xl">
                   Startup is free Next.js template for startups and SaaS
                   business websites comes with all the essential pages,

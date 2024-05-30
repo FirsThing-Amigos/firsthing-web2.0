@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
-    <section className="pt-24 pb-24">
+    <section id="out-clients" className="pt-12 sm:pt-24 pb-0 sm:pb-12 sm:pt-24">
       <div className="container">
     
 

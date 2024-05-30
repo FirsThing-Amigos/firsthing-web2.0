@@ -10,10 +10,10 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="our-product" className="relative dark:bg-bg-color-dark bg-gray-light relative z-10 py-12 sm:py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="How It works"
+          title="The Product"
           paragraph="A Real Time Energy Activity Tracker, That help users save upto 35% of electricity."
           center
           mb="80px"

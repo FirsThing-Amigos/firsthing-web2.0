@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
           <div className="w-full text-center">
            <SectionTitle
-                title="WHO WE ARE"
+                title="Contact Us"
                 paragraph=""
                 mb="44px"
                 center
@@ -22,13 +22,12 @@ const Contact = () => {
       Contact Info.
       </h3>
 
-     <h4 className="mt-10  leading-tight text-black dark:text-white"> REACHUS.</h4>
+     <h4 className="mt-10  leading-tight text-black dark:text-white"> REACH US.</h4>
     <p  className="m-0 text-base font-medium text-body-color">info@firsthing.earth</p>
     <h4 className="mt-10  leading-tight text-black dark:text-white">CALL</h4>
     <p  className="m-0 text-base font-medium text-body-color">+91 98113 22159</p>
-    <h4 className="mt-10">VISITUS.</h4>
-    <p className="m-0 text-base font-medium text-body-color">C-103, Industrial Estate, Okhla Phase III,
-    Okhla, New Delhi, Delhi 110020</p>
+    <h4 className="mt-10">VISIT US</h4>
+    <p className="m-0 text-base font-medium text-body-color">Firsthing Pvt. Ltd. <br/> Green Gold 56, Plot 54-P, Block B, <br/>Sector 56, Gurugram, Haryana 122011</p>
 
 
       </div>
