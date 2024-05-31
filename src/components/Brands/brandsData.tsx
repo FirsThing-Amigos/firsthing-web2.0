@@ -5,8 +5,8 @@ const brandsData: Brand[] = [
     id: 6,
     name: "Formbold",
     href: "",
-    image: "/images/partner/1.svg",
-    imageLight: "/images/partner/1.svg",
+    image: "/images/partner/1.png",
+    imageLight: "/images/partner/1.png",
   },
   {
     id: 1,
@@ -19,16 +19,9 @@ const brandsData: Brand[] = [
     id: 2,
     name: "Tailgrids",
     href: "",
-    image: "/images/partner/3.svg",
-    imageLight: "/images/partner/3.svg",
+    image: "/images/partner/3.png",
+    imageLight: "/images/partner/3.png",
   },
-  {
-    id: 3,
-    name: "Lineicons",
-    href: "",
-    image: "/images/partner/4.svg",
-    imageLight: "/images/partner/4.svg",
-  } 
 ];
 
 export default brandsData;

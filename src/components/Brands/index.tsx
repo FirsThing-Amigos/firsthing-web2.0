@@ -18,7 +18,7 @@ const Brands = () => {
           center
           mb="80px"
         />
-            <div className="flex flex-wrap items-center justify-between rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[30px] 2xl:py-[20px]">
+            <div className="flex flex-wrap items-center justify-between rounded-sm  px-8 py-8  sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[30px] 2xl:py-[20px]">
            
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
