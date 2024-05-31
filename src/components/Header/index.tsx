@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -46,24 +47,32 @@ const Header = () => {
             : "absolute bg-transparent"
         }`}
       >
-        <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-20 max-w-full px-0 xl:mr-12">
+        <div className="container header-banner">
+          <div className="relative z-10 -mx-4 flex items-center justify-between">
+            <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                className={`header-logo block w-40 sm:w-full ${
+                  sticky ? "py-5 lg:py-2" : "sm:py-4 py-2"
                 } `}
               >
                 <Image
                   src="/images/logo/logo.png"
                   alt="logo"
-                  width={130}
-                  height={20}
+                  width={140}
+                  height={30}
+                  className="w-full dark:hidden"
+                />
+                <Image
+                  src="/images/logo/logo.png"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="hidden w-full dark:block"
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-end px-1">
+            <div className="flex items-center justify-end pr-16 lg:pr-0">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -95,7 +104,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex gap-10 m:top">
+                  <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
@@ -149,8 +158,23 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-              </div>
+              {/* <div className="flex items-center justify-end pr-16 lg:pr-0">
+                <Link
+                  href="/signin"
+                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                >
+                  Sign In
+                </Link>
+                <Link
+                  href="/signup"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+                >
+                  Sign Up
+                </Link>
+                <div>
+                  <ThemeToggler />
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
