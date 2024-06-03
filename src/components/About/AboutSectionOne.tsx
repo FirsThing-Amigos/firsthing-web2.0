@@ -33,25 +33,27 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="text-3xl">
-                  <div>
-                    <img src=""></img>
-                    <h1>B2B sectors</h1>
-                  </div>
-                  <br />
-                  <div>
-                    <img src=""></img>
-                    <h1>Focusing on co-living spaces and real estate</h1>
-                  </div>
-                  <br />
-                  <div>
-                    <img src=""></img>
-                    <h1>Aiming to drive sustainability and efficiency</h1>
-                  </div>
-                  <br />
-                  <div>
-                    <img src=""></img>
-                    <h1>Enable Commercial infrastructure to become Energy Efficient</h1>
+                <div className="">
+                  <div className="text-3xl opacity-60">
+                    <div className="flex items-center">
+                      <img className=" h-[10vh]" src="../images/logo/b2b.png"></img>
+                      <h1 className="p-5">B2B sectors</h1>
+                    </div>
+                    <br />
+                    <div className="flex items-center">
+                      <img className=" h-[10vh]" src="../images/logo/agreement.svg"></img>
+                      <h1 className="p-5">Focusing on co-living spaces and real estate</h1>
+                    </div>
+                    <br />
+                    <div className="flex items-center">
+                      <img className=" h-[10vh]" src="../images/logo/sustainability.png"></img>
+                      <h1 className="p-5">Aiming to drive sustainability and efficiency</h1>
+                    </div>
+                    <br />
+                    <div className="flex items-center">
+                      <img className=" h-[10vh]" src="../images/logo/energy.png"></img>
+                      <h1 className="p-5">Enable Commercial infrastructure to become Energy Efficient</h1>
+                    </div>
                   </div>
                 </div>
               </div>
