@@ -5,38 +5,42 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/smart-switch1.png'} alt={'Comprehensive monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Energy_Audit .webp'} alt={'Comprehensive monitoring'} fill />
     ),
-    title: "Comprehensive monitoring",
-    paragraph:
-      "RetroFit Smart Switch Modules for comprehensive monitoring",
+    title: "Energy Audit and insights ",
+    paragraph: "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative"  src={'/images/icons/png/sensors.png'} alt={'Comprehensive monitoring'} fill />
+      <Image className="relative"  src={'/images/icons/webP/Forecast_Electricity.webp'} alt={'Comprehensive monitoring'} fill />
     ),
-    title: "Motion sensors",
-    paragraph:
-      "Motion sensors for automated energy savings.",
+    title: "Forecast of Electricity Bills",
+    paragraph:  "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/monitoring.png'} alt={'Real-time monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Appliances_health.webp'} alt={'Real-time monitoring'} fill />
     ),
-    title: "Real-time monitoring",
-    paragraph:
-      "Real-time monitoring dashboards for detailed consumption insights.",
+    title: "Appliances health Notification",
+    paragraph: "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/monitoring.png'} alt={'Next.js 13 (Latest)'} fill />
+      <Image className="relative" src={'/images/icons/webP/Itemisation_electricity.webp'} alt={'Next.js 13 (Latest)'} fill />
     ),
-    title: "Next.js 13 (Latest)",
-    paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam ",
+    title: "Itemisation of electricity Bills",
+    paragraph: "",
+  },
+  {
+    id: 1,
+    icon: (
+      <Image className="relative" src={'/images/icons/webP/Real_Time_Feedback.webp'} alt={'Next.js 13 (Latest)'} fill />
+    ),
+    title: "Real Time Feedback on Device",
+    paragraph: "",
   },
   
 ];

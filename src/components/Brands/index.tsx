@@ -44,8 +44,8 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         rel="nofollow noreferrer"
         className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
       >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
+        <Image src={imageLight} alt={name} fill className="hidden m-auto  dark:block h-auto sw-auto max-w-36" />
+        <Image src={image} alt={name} fill className="block dark:hidden m-auto h-auto w-auto max-w-36" />
       </a>
     </div>
   );

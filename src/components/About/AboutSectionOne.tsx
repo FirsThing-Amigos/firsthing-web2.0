@@ -34,17 +34,18 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                  <div className="w-full px-3 sm:w-full lg:w-full xl:w-full">
+                    <List text="B2B sectors" />
+                    <List text="Focusing on co-living spaces and real estate " />
+                    <List text="Aiming to drive sustainability and efficiency" />
+                    <List text="Enable Commercial infrastructure to become Energy Efficient" />
                   </div>
-
+{/* 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Next.js" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

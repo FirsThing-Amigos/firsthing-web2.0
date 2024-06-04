@@ -13,7 +13,14 @@ const Hero = () => {
   <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-            <video className="absolute left-0 top-0 w-full"  src={'/images/video/videoplayback.mp4'} autoPlay loop muted />
+            <video
+                className="absolute left-0 top-0 w-full h-full object-cover"
+                src={'/images/video/videoplayback.mp4'}
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
               <div className="relative  pt-20  pb-12 sm:pt-0 mx-auto max-w-[100%] sm:max-w-[800px] text-center">
                 <h1 className="sm:mb-5 mb-2 font-bold leading-tight text-white dark:text-white sm:text-sm sm:leading-tight md:text-3xl md:leading-tight">
                 FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.

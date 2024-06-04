@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Rajesh K",
+    designation: "Sr. Facility Manager and Energy Auditor - IDR",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "FirstThing.earth has been a game-changer for our business. Their innovative energy management solutions have reduced our electricity bills by 35%. The real-time monitoring and insightful data have been invaluable for optimizing our energy usage. I highly recommend their services to any business looking to improve energy efficiency.",
+    image: "/images/testimonials/rk.webp",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Vijay K",
+    designation: "Sr. Admin -  ASF Insignia",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "With years of experience in the commercial infrastructure industry, I can confidently say that FirstThing.earth has been instrumental in enhancing our energy efficiency. Their innovative solutions have led to a 35% reduction in our electricity bills. The real-time monitoring and insightful data have greatly optimized our energy usage. I foresee continued collaboration with FirstThing.earth in the future and highly recommend their services to any business looking to achieve significant energy savings.",
+    image: "/images/testimonials/na.webp",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Ankush Gupta",
+    designation: "Operational Head - Settl",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "FirstThing.earth has revolutionized our approach to energy management at Settl. The efficiency of their devices and the precision of their monitoring systems have been outstanding. We've seen significant improvements in energy usage and overall efficiency. Their solutions are not only effective but also easy to integrate into our existing infrastructure. I highly recommend FirstThing.earth for any organization looking to optimize their energy consumption and enhance operational efficiency.",
+    image: "/images/testimonials/na.webp",
     star: 5,
   },
 ];
