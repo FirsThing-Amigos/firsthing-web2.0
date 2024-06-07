@@ -21,7 +21,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/webP/Appliances_health.webp'} alt={'Real-time monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Appliances_health.png'} alt={'Real-time monitoring'} fill />
     ),
     title: "Appliances health Notification",
     paragraph: "",

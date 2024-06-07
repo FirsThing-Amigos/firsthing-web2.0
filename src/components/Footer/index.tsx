@@ -160,6 +160,22 @@ const Footer = () => {
                     Contact
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="https://analytics.firsthing.earth/login?next=https%3A%2F%2Fanalytics.firsthing.earth%2F"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                    analytics
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://firsthing.earth/user/login"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                    login
+                    </Link>
+                  </li>
                  
                 </ul>
               </div>

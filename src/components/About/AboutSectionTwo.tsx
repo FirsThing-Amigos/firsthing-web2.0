@@ -72,7 +72,7 @@ const AboutSectionTwo = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                 <div className="">
-                  <div className="text-3xl opacity-70">
+                  <div className="xl:text-3xl text-xl opacity-70">
                     <div className="flex items-center">
                       <img className=" h-[10vh] p-5" src="../images/logo/audit.png"></img>
                       <h1 className="p-5">Site Audit</h1>

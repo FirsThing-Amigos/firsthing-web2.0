@@ -14,32 +14,32 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="The Product"
-          paragraph="A Real Time Energy Activity Tracker, That help users save upto 35% of electricity."
+          paragraph=""
           center
           mb="80px"
         />
 
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
+        <div className=" items-center justify-center">
+          <div className=" justify-center items-center">
             <div
-              className="mx-auto max-w-[770px] overflow-hidden rounded-md"
+              className=" overflow-hidden rounded-md justify-center items-center"
               data-wow-delay=".15s"
             >
-              <div className="relative aspect-[77/40] items-center justify-center xl:flex xl:p-100">
-                <div className="justify-center items-center p-10">
-                  <h1 className="text-2xl font-semibold ">Energy Track Device</h1>
+              <div className="xl:flex justify-center items-center">
+                <div className="">
+                  <h1 className="text-2xl xl:ml-60 font-semibold items-center justify-start m-[60px]">Energy Track Device</h1>
                   <br/>
-                  <img className="" src="../images/logo/prod1.png"></img>
+                  <img className=" xl:h-96 xl:w-96 xl:ml-40 items-center justify-center" src="../images/logo/prod1.png"></img>
                   <br/>
-                  <p>This device is use to Monitor the Energy Consumption on Appliance Level</p>
+                  <p className="m-10 ">This device is use to Monitor the Energy Consumption on Appliance Level Energy Saving Device </p>
                 </div>
-                <br/>
-                <div className="justify-center items-center p-10">
-                  <h1 className="text-2xl font-semibold ">Energy Saving Device </h1>
+                <div className="flex-1 xl:border-r border-white"></div>
+                <div className="xl:ml-60">
+                  <h1 className="text-2xl xl:ml-60 font-semibold m-[60px]">Energy Saving Device </h1>
                   <br/>
-                  <img className="" src="../images/logo/prod2.png"></img>
+                  <img className=" xl:h-96 xl:w-96 xl:ml-40" src="../images/logo/prod2.png"></img>
                   <br/>
-                  <p>This device is use to Reduce  the Energy Consumption on Appliance Level Upto 35%</p>
+                  <p className="m-10">This device is use to Reduce  the Energy Consumption on Appliance Level Upto 35%</p>
                 </div>
                 {/* <Image src="/images/video/banner2.png" alt="video image" fill /> */}
                 {/* <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">

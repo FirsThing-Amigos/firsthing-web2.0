@@ -13,7 +13,7 @@ const Features = () => {
             center
           />
 
-          <div className="border-b border-body-color/[.15] dark:border-white/[.15] pb-12 sm:pb-16 md:pb-20 lg:pb-28 grid grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-14 md:grid-cols-2 lg:grid-cols-5">
+          <div className="border-b border-body-color/[.15] dark:border-white/[.15] pb-12 sm:pb-16 md:pb-20 lg:pb-28 grid grid-cols-2 gap-x-8 gap-y-8 sm:gap-y-14 md:grid-cols-2 lg:grid-cols-5">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
