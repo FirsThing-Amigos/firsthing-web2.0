@@ -9,11 +9,11 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Our Solutions"
-            paragraph="Our flagship product, EnergiTrack, Provides the amount of energy consumed by each appliance in the premise and monitoring via our analytics Dashboards and Our Energy Save Device , combined with our cutting edge software for real-time monitoring and control, saving up to 50% of electricity."
+            paragraph="Our flagship product, EnergiTrack, harnesses the power of RetroFit Smart Switch Modules and Motion Sensors, combined with our cutting edge software for real-time monitoring and control, saving up to 50% of electricity."
             center
           />
 
-          <div className="border-b border-body-color/[.15] dark:border-white/[.15] pb-12 sm:pb-16  md:pb-20 lg:pb-28 grid grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="border-b border-body-color/[.15] dark:border-white/[.15] pb-12 sm:pb-16 md:pb-20 lg:pb-28 grid grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-14 md:grid-cols-2 lg:grid-cols-5">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

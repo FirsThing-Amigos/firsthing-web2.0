@@ -10,7 +10,7 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section id="our-product" className="relative dark:bg-bg-color-dark bg-gray-light relative z-10 py-12 sm:py-16 md:py-20 lg:py-28">
+    <section id="our-product" className=" dark:bg-bg-color-dark bg-gray-light relative z-10 py-12 sm:py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="The Product"
@@ -25,8 +25,23 @@ const Video = () => {
               className="mx-auto max-w-[770px] overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
-              <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/banner2.png" alt="video image" fill />
+              <div className="relative aspect-[77/40] items-center justify-center xl:flex xl:p-100">
+                <div className="justify-center items-center p-10">
+                  <h1 className="text-2xl font-semibold ">Energy Track Device</h1>
+                  <br/>
+                  <img className="" src="../images/logo/prod1.png"></img>
+                  <br/>
+                  <p>This device is use to Monitor the Energy Consumption on Appliance Level</p>
+                </div>
+                <br/>
+                <div className="justify-center items-center p-10">
+                  <h1 className="text-2xl font-semibold ">Energy Saving Device </h1>
+                  <br/>
+                  <img className="" src="../images/logo/prod2.png"></img>
+                  <br/>
+                  <p>This device is use to Reduce  the Energy Consumption on Appliance Level Upto 35%</p>
+                </div>
+                {/* <Image src="/images/video/banner2.png" alt="video image" fill /> */}
                 {/* <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
