@@ -25,7 +25,7 @@ const Video = () => {
               className=" overflow-hidden rounded-md justify-center items-center"
               data-wow-delay=".15s"
             >
-              <div className="xl:flex justify-center items-center">
+              <div className="xl:flex justify-center items-center  bg-bg-color-dark">
                 <div className="">
                   <h1 className="text-2xl xl:ml-60 font-semibold items-center justify-start m-[60px]">Energy Track Device</h1>
                   <br/>
