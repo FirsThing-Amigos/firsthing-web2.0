@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Rajesh K",
     designation: "Sr. Facility Manager and Energy Auditor - IDR",
     content:
-      "FirstThing.earth has been a game-changer for our business. Their innovative energy management solutions have reduced our electricity bills by 35%. The real-time monitoring and insightful data have been invaluable for optimizing our energy usage. I highly recommend their services to any business looking to improve energy efficiency.",
+      "FirsThing.earth has been a game-changer for our business. Their innovative energy management solutions have reduced our electricity bills by 35%. The real-time monitoring and insightful data have been invaluable for optimizing our energy usage. I highly recommend their services to any business looking to improve energy efficiency.",
     image: "/images/testimonials/rk.webp",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Vijay K",
     designation: "Sr. Admin -  ASF Insignia",
     content:
-      "With years of experience in the commercial infrastructure industry, I can confidently say that FirstThing.earth has been instrumental in enhancing our energy efficiency. Their innovative solutions have led to a 35% reduction in our electricity bills. The real-time monitoring and insightful data have greatly optimized our energy usage. I foresee continued collaboration with FirstThing.earth in the future and highly recommend their services to any business looking to achieve significant energy savings.",
+      "With years of experience in the commercial infrastructure industry, I can confidently say that FirsThing.earth has been instrumental in enhancing our energy efficiency. Their innovative solutions have led to a 35% reduction in our electricity bills. The real-time monitoring and insightful data have greatly optimized our energy usage. I foresee continued collaboration with FirsThing.earth in the future and highly recommend their services to any business looking to achieve significant energy savings.",
     image: "/images/testimonials/author-02.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Ankush Gupta",
     designation: "Operational Head - Settl",
     content:
-      "FirstThing.earth has revolutionized our approach to energy management at Settl. The efficiency of their devices and the precision of their monitoring systems have been outstanding. We've seen significant improvements in energy usage and overall efficiency. Their solutions are not only effective but also easy to integrate into our existing infrastructure. I highly recommend FirstThing.earth for any organization looking to optimize their energy consumption and enhance operational efficiency.",
+      "FirsThing.earth has revolutionized our approach to energy management at Settl. The efficiency of their devices and the precision of their monitoring systems have been outstanding. We've seen significant improvements in energy usage and overall efficiency. Their solutions are not only effective but also easy to integrate into our existing infrastructure. I highly recommend FirsThing.earth for any organization looking to optimize their energy consumption and enhance operational efficiency.",
     image: "/images/testimonials/na.webp",
     star: 5,
   },
