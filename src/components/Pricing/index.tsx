@@ -13,7 +13,7 @@ const Pricing = () => {
       <div className="container">
       <SectionTitle
           title="Company Overview"
-          paragraph="Firsthing.earth pioneers iot-based energy management solutions for..."
+          paragraph="FirsThing.earth pioneers iot-based energy management solutions for..."
           center
           width="100%"
         />

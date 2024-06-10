@@ -15,7 +15,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     const mailOptions = {
       from: email,
-      to: 'info@firsthing.earth', // Replace with your domain email
+      to: 'info@FirsThing.earth', // Replace with your domain email
       subject: `Message from ${name}`,
       text: message,
     };

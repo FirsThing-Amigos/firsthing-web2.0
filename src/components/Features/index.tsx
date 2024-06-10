@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Our Solutions"
-            paragraph="Our flagship product, EnergiTrack, Provides the amount of energy consumed by each appliance in the premise and monitoring via our analytics Dashboards and Our Energy Save Device , combined with our cutting edge software for real-time monitoring and control, saving up to 50% of electricity."
+            paragraph="Our flagship product, EnergiTrack, Provides the amount of energy consumed by each appliance in the premise and monitoring via our Analytics Dashboards and Our Energy Save Device , combined with our cutting edge software for real-time monitoring and control, saving up to 50% of electricity."
             center
           />
 

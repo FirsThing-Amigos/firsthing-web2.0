@@ -16,7 +16,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     const mailOptions = {
       from: email,
       to: process.env.EMAIL_USER, // Replace with your domain email
-      subject: `Contact us FIRSTHING || ${name}`,
+      subject: `Contact us FirsThing || ${name}`,
       text: message,
     };
 

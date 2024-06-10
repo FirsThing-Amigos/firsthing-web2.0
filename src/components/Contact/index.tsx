@@ -23,11 +23,11 @@ const Contact = () => {
       </h3>
 
      <h4 className="mt-10  leading-tight text-black dark:text-white"> REACH US.</h4>
-    <p  className="m-0 text-base font-medium text-body-color">info@firsthing.earth</p>
+    <p  className="m-0 text-base font-medium text-body-color">info@FirsThing.earth</p>
     <h4 className="mt-10  leading-tight text-black dark:text-white">CALL</h4>
     <p  className="m-0 text-base font-medium text-body-color">+91 98113 22159</p>
     <h4 className="mt-10">VISIT US</h4>
-    <p className="m-0 text-base font-medium text-body-color">Firsthing Pvt. Ltd. <br/> Green Gold 56, Plot 54-P, Block B, <br/>Sector 56, Gurugram, Haryana 122011</p>
+    <p className="m-0 text-base font-medium text-body-color">FirsThing.earth <br/> Green Gold 56, Plot 54-P, Block B, <br/>Sector 56, Gurugram, Haryana 122011</p>
 
 
       </div>

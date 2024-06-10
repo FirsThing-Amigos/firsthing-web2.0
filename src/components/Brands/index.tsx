@@ -13,7 +13,7 @@ const Brands = () => {
           <div className="w-full ">
           <SectionTitle
           title="Our clients"
-          paragraph="From commercial buildings and residential complexes to industrial facilities, Firsthing serves a wide range of sectors looking for
+          paragraph="From commercial buildings and residential complexes to industrial facilities, FirsThing serves a wide range of sectors looking for
           smart energy solutions."
           center
           mb="80px"

@@ -34,7 +34,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
           <SectionTitle
                 title="How It works"
-                paragraph="At Firsthing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and real estate, with the tools to achieve unparalleled energy efficiency and sustainability."
+                paragraph="At FirsThing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and Commercial Infrastructure, with the tools to achieve unparalleled energy efficiency and sustainability."
                 mb="44px"
               />
             {/* <div className="max-w-[470px]">

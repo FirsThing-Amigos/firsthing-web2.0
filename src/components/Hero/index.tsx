@@ -23,7 +23,7 @@ const Hero = () => {
               />
               <div className="relative  pt-20  pb-12 sm:pt-0 mx-auto max-w-[100%] sm:max-w-[800px] text-center">
                 <h1 className="sm:mb-5 mb-2 font-bold leading-tight text-white dark:text-white sm:text-sm sm:leading-tight md:text-3xl md:leading-tight">
-                FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.
+                FirsThing IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.
                 </h1>
        
          <LottieImage className={"m-auto heroBannerBlink w-12 h-12 sm:w-36 sm:h-36"} src={animationData}  />

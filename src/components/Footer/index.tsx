@@ -89,7 +89,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://www.linkedin.com/company/firsthing/"
+                    href="https://www.linkedin.com/company/FirsThing/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -162,18 +162,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://analytics.firsthing.earth/login?next=https%3A%2F%2Fanalytics.firsthing.earth%2F"
+                      href="https://Analytics.FirsThing.earth/Login?next=https%3A%2F%2FAnalytics.FirsThing.earth%2F"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                    analytics
+                    Analytics
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://firsthing.earth/user/login"
+                      href="https://FirsThing.earth/user/Login"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                    login
+                    Login
                     </Link>
                   </li>
                  
@@ -185,7 +185,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-            © Copyright Firsthing Private Limited. All Rights Reserved
+            © Copyright FirsThing Private Limited. All Rights Reserved
             </p>
           </div>
         </div>

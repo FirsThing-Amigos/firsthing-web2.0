@@ -18,14 +18,14 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="who-we-are" className="pt-12 sm:pt-16 md:pt-20 lg:pt-28">
+    <section id="who-we-are" className="pt-12 sm:pt-16 md:pt-20 lg:pt-28 ">
       <div className="container">
         <div className="border-b border-body-color/[.15] dark:border-white/[.15] pb-12 sm:pb-16  md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="WHO WE ARE"
-                paragraph="At Firsthing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and real estate, with the tools to achieve unparalleled energy efficiency and sustainability."
+                paragraph="At FirsThing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and Commercial Infrastructure, with the tools to achieve unparalleled energy efficiency and sustainability."
                 mb="44px"
               />
 
@@ -42,7 +42,7 @@ const AboutSectionOne = () => {
                     <br />
                     <div className="flex items-center">
                       <img className=" h-[10vh]" src="../images/logo/agreement.svg"></img>
-                      <h1 className="p-5">Focusing on co-living spaces and real estate</h1>
+                      <h1 className="p-5">Focusing on co-living spaces and Commercial Infrastructure</h1>
                     </div>
                     <br />
                     <div className="flex items-center">

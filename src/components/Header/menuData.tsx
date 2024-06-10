@@ -16,13 +16,13 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "Analytics",
-    path: "https://analytics.firsthing.earth/",
+    path: "https://Analytics.FirsThing.earth/",
     newTab: false,
   },
   {
     id: 4,
-    title: "login",
-    path: "https://firsthing.earth/user/login",
+    title: "Login",
+    path: "https://FirsThing.earth/user/Login",
     newTab: false,
   },
   

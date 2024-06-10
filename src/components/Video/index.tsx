@@ -12,37 +12,27 @@ const Video = () => {
   return (
     <section id="our-product" className=" dark:bg-bg-color-dark bg-gray-light relative z-10 py-12 sm:py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="The Product"
-          paragraph=""
-          center
-          mb="80px"
-        />
-
+        <div className=" text-4xl font-bold justify-center items-center flex">PRODUCTS</div>
         <div className=" items-center justify-center">
           <div className=" justify-center items-center">
             <div
               className=" overflow-hidden rounded-md justify-center items-center"
               data-wow-delay=".15s"
             >
-              <div className="xl:flex justify-center items-center  bg-bg-color-dark">
-                <div className="">
-                  <h1 className="text-2xl xl:ml-60 font-semibold items-center justify-start m-[60px]">Energy Track Device</h1>
-                  <br/>
-                  <img className=" xl:h-96 xl:w-96 xl:ml-40 items-center justify-center" src="../images/logo/prod1.png"></img>
-                  <br/>
-                  <p className="m-10 ">This device is use to Monitor the Energy Consumption on Appliance Level Energy Saving Device </p>
-                </div>
-                <div className="flex-1 xl:border-r border-white"></div>
-                <div className="xl:ml-60">
-                  <h1 className="text-2xl xl:ml-60 font-semibold m-[60px]">Energy Saving Device </h1>
-                  <br/>
-                  <img className=" xl:h-96 xl:w-96 xl:ml-40" src="../images/logo/prod2.png"></img>
-                  <br/>
-                  <p className="m-10">This device is use to Reduce  the Energy Consumption on Appliance Level Upto 35%</p>
-                </div>
-                {/* <Image src="/images/video/banner2.png" alt="video image" fill /> */}
-                {/* <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
+
+              <h1 className="flex text-xl font-medium items-center justify-start m-[30px] translate-x-10">Energy Track Device</h1>
+              <br />
+              <img className="h-60 w-60 translate-x-[50px] -translate-y-1/4" src="../images/logo/prod1.png"></img>
+              <br />
+              <p className="-translate-y-10">This device is use to Monitor the Energy Consumption on Appliance Level Energy Saving Device </p>
+              <div className="flex-1 xl:border-r border-white"></div>
+              <h1 className="text-xl font-medium m-[30px] translate-x-10">Energy Saving Device </h1>
+              <br />
+              <img className="h-60 w-60 translate-x-[50px]" src="../images/logo/prod2.png"></img>
+              <br />
+              <p>This device is use to Reduce  the Energy Consumption on Appliance Level Upto 35%</p>
+              {/* <Image src="/images/video/banner2.png" alt="video image" fill /> */}
+              {/* <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
                     onClick={() => setOpen(true)}
@@ -58,7 +48,7 @@ const Video = () => {
                     </svg>
                   </button>
                 </div> */}
-              </div>
+
             </div>
           </div>
         </div>
