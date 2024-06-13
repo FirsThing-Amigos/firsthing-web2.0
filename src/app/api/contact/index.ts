@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     try {
       // Send the email
       await transporter.sendMail({
-        from: '"Website Contact Form" <your-email@domain.com>',
+        from: '"Website Contact Form" <priyanshu@firsthing.earth>',
         to: 'info@FirsThing.earth', // receiver email
         subject: 'New Contact Form Submission',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,

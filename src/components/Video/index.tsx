@@ -12,21 +12,21 @@ const Video = () => {
   return (
     <section id="our-product" className=" dark:bg-bg-color-dark bg-gray-light relative z-10 py-12 sm:py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className=" text-4xl font-bold justify-center items-center flex">PRODUCTS</div>
-        <div className=" items-center justify-center">
-          <div className=" justify-center items-center">
+        <div className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[40px]">PRODUCTS</div>
+        <div className="">
+          <div className="">
             <div
-              className=" overflow-hidden rounded-md justify-center items-center"
+              className=" overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
 
-              <h1 className="flex text-xl font-medium items-center justify-start m-[30px] translate-x-10">Energy Track Device</h1>
+              <h1 className="text-xl font-medium mt-5 mb-10 ">Energy Track Device</h1>
               <br />
               <img className="h-60 w-60 translate-x-[50px] -translate-y-1/4" src="../images/logo/prod1.png"></img>
               <br />
               <p className="-translate-y-10">This device is use to Monitor the Energy Consumption on Appliance Level Energy Saving Device </p>
               <div className="flex-1 xl:border-r border-white"></div>
-              <h1 className="text-xl font-medium m-[30px] translate-x-10">Energy Saving Device </h1>
+              <h1 className="text-xl font-medium mt-5 mb-10">Energy Saving Device </h1>
               <br />
               <img className="h-60 w-60 translate-x-[50px]" src="../images/logo/prod2.png"></img>
               <br />

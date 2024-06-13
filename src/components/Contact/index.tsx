@@ -4,13 +4,10 @@ import SectionTitle from "../Common/SectionTitle";
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
-          <div className="w-full text-center">
-           <SectionTitle
-                title="Contact Us"
-                paragraph=""
-                mb="44px"
-                center
-              />
+          <div className="w-full">
+          <div className="m-5">
+              <h1 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[40px]">Our Solutions</h1>
+            </div>
               </div>
       <div className="container">
   
