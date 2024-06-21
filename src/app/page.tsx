@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
-  description: "At Firsthing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and real estate, with the tools to achieve unparalleled energy efficiency and sustainability.",
+  title: "FirsThing IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
+  description: "At FirsThing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and Commercial Infrastructure, with the tools to achieve unparalleled energy efficiency and sustainability.",
   // other metadata
 };
 

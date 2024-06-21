@@ -4,13 +4,10 @@ import SectionTitle from "../Common/SectionTitle";
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
-          <div className="w-full text-center">
-           <SectionTitle
-                title="Contact Us"
-                paragraph=""
-                mb="44px"
-                center
-              />
+          <div className="w-full">
+          <div className="m-5">
+              <h1 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[40px]">Our Solutions</h1>
+            </div>
               </div>
       <div className="container">
   
@@ -23,11 +20,11 @@ const Contact = () => {
       </h3>
 
      <h4 className="mt-10  leading-tight text-black dark:text-white"> REACH US.</h4>
-    <p  className="m-0 text-base font-medium text-body-color">info@firsthing.earth</p>
+    <p  className="m-0 text-base font-medium text-body-color">info@FirsThing.earth</p>
     <h4 className="mt-10  leading-tight text-black dark:text-white">CALL</h4>
     <p  className="m-0 text-base font-medium text-body-color">+91 98113 22159</p>
     <h4 className="mt-10">VISIT US</h4>
-    <p className="m-0 text-base font-medium text-body-color">Firsthing Pvt. Ltd. <br/> Green Gold 56, Plot 54-P, Block B, <br/>Sector 56, Gurugram, Haryana 122011</p>
+    <p className="m-0 text-base font-medium text-body-color">FirsThing.earth <br/> Green Gold 56, Plot 54-P, Block B, <br/>Sector 56, Gurugram, Haryana 122011</p>
 
 
       </div>
@@ -37,7 +34,16 @@ const Contact = () => {
           </div>
           
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8173993297537!2d77.09928247644348!3d28.424766199999972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23e7cf718c95%3A0x6af0c1faac10cd00!2sGreen%20Gold%2056!5e0!3m2!1sen!2sin!4v1716746480501!5m2!1sen!2sin" width="100%" height="440"  ></iframe>
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8173993297537!2d77.09928247644348!3d28.424766199999972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23e7cf718c95%3A0x6af0c1faac10cd00!2sGreen%20Gold%2056!5e0!3m2!1sen!2sin!4v1716746480501!5m2!1sen!2sin&maptype=satellite&zoom=15&disableDefaultUI=true&zoomControl=false&scaleControl=false&streetViewControl=false&rotateControl=false&fullscreenControl=false"
+              width="100%"
+              height="440"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+
              {/* <div
               className="mb-12 rounded-sm bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s

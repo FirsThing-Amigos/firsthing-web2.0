@@ -5,47 +5,43 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/1.webp'} alt={'Comprehensive monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Energy_Audit .webp'} alt={'Comprehensive monitoring'} fill />
     ),
-    title: "Energy Audit and insights",
-    paragraph:
-      "",
+    title: "Energy Audit and insights ",
+    paragraph: "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative"  src={'/images/icons/png/2.webp'} alt={'Comprehensive monitoring'} fill />
+      <Image className="relative"  src={'/images/icons/webP/Forecast_Electricity.webp'} alt={'Comprehensive monitoring'} width={100} height={100} />
     ),
     title: "Forecast of Electricity Bills",
-    paragraph:
-      "",
+    paragraph:  "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/3.webp'} alt={'Real-time monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Appliances_health.png'} alt={'Real-time monitoring'} fill />
     ),
     title: "Appliances health Notification",
-    paragraph:
-      "",
+    paragraph: "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/4.webp'} alt={'Real-time monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Itemisation_electricity.webp'} alt={'Next.js 13 (Latest)'} fill />
     ),
-    title: "Itemisation of electricity Bills a.k.a device wise Monitoring",
-    paragraph:
-      "",
+    title: "Itemisation of electricity Bills",
+    paragraph: "",
   },
   {
     id: 1,
     icon: (
-      <Image className="relative" src={'/images/icons/png/5.webp'} alt={'Real-time monitoring'} fill />
+      <Image className="relative" src={'/images/icons/webP/Real_Time_Feedback.webp'} alt={'Next.js 13 (Latest)'} fill />
     ),
-    title: "Real Time Feedback on Device Performance and Anomaly Detection",
-    paragraph:
-      "",
+    title: "Real Time Feedback on Device",
+    paragraph: "",
   },
+  
 ];
 export default featuresData;
