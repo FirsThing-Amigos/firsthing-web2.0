@@ -337,7 +337,7 @@ const NewsLatterBox = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await fetch('/api/sendEmail', {
+      const res = await fetch('/notification/contact-us', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

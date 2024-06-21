@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     // Create a Nodemailer transporter
     const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
+    port: Number(process.env.EMAIL_PORT),
     secure: false, // true for 465, false for other ports
     auth: {
         user: process.env.EMAIL_USER, // your email
