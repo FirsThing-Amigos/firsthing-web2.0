@@ -21,6 +21,12 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
+    title: "Basment Parking",
+    path: "/basement-parking",
+    newTab: false,
+  },
+  {
+    id: 5,
     title: "Login",
     path: "https://FirsThing.earth/user/Login",
     newTab: false,

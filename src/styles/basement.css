@@ -1,0 +1,159 @@
+.page1 {
+    position: relative;
+    width: 100%;
+    height:30em;
+  }
+  .page1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .overlay-text {
+    position: absolute;
+    color: white;
+    width: 80%;
+    padding: 20px;
+    margin: 7em  1em;
+  }
+  
+  .text1 {
+    font-size: 1.7em;
+    font-weight:600;
+    margin-bottom: 0.5em;
+  }
+  
+  .text2 {
+    font-size: 1em;
+    font-weight:400;
+    margin-bottom: 1em;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .page2 {
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    height:15em;
+  }
+  .img1{
+    opacity:0.5;
+  }
+  .page2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .heading{
+    font-size: 1.5em;
+    font-weight:600;
+    margin-bottom: 0.5em;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top:1.5em;
+  }
+  .images{
+    margin:20px;
+  }
+  .info{
+    margin-top:20px;
+    
+  }
+  .info img{
+    width: 100%;
+    height: 30em;
+    object-fit:cover;
+  }
+  .infotext1{
+    margin: 1px 0px;
+    position: relative;
+    bottom: 13.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background */
+    color: white; /* Ensure text is visible */
+  }
+  .infotext2{
+    margin: 1px 0px;
+    position: relative;
+    bottom: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background */
+    color: white; /* Ensure text is visible */
+  }
+  .infotext3{
+    margin: 1px 0px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 16.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background */
+    color: white; /* Ensure text is visible */
+  }
+  .carousal1 {
+    display: grid;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .carousal1 img {
+    min-width: 100%;
+    height: auto;
+    animation: slide 20s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .page5{
+    position: relative;
+    width: 100%;
+    height:25em;
+  }
+  .carousal2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    flex-shrink: 0;
+  }
+  .prizingtable{
+    height:20em;
+    width:auto;
+  }
+  .eco{
+    padding:10px;
+  }
