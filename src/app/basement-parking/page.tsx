@@ -112,17 +112,16 @@ const BasementParking = () => {
           </div>
         </div>
       </div>
-
       <div className="page3">
         <h1 className="heading">Real-Time Monitoring</h1>
         <div className=" images">
           <div className="info">
-            <img src="../images/basement-parking/monitoring.webp" alt="monitoring" className="1" />
+            <img src="../images/basement-parking/monitoring.webp" alt="monitoring" className="page3img" />
             <div className="infotext1">
               <div className=" mt-[5em] mb-[2em]">
-                <h1 className=" text-2xl ml-2">Real-Time Monitoring</h1>
+                <h1 className=" text-2xl ml-2 lg:text-5xl lg:ml-5">Real-Time Monitoring</h1>
                 <br />
-                <p className=" font-extralight ml-2">Current Savings upto 50%. Savings are being updated in real-time</p>
+                <p className=" text-2xl font-extralight ml-2 lg:ml-5">Current Savings upto 50%. Savings are being updated in real-time</p>
               </div>
             </div>
           </div>
@@ -132,10 +131,10 @@ const BasementParking = () => {
             <img src="../images/basement-parking/upfront.webp" alt="" className="1" />
             <div className="infotext2">
               <div className=" mt-[5em] mb-[2em]">
-                <h1 className=" text-2xl ml-2">Zero Upfront Cost</h1>
+                <h1 className=" text-2xl ml-2 lg:text-5xl lg:ml-5">Zero Upfront Cost</h1>
                 <br />
                 <br />
-                <p className=" font-extralight ml-2">No upfront charges. We charge a percentage from the savings.</p>
+                <p className=" text-2xl font-extralight ml-2 lg:ml-5">No upfront charges. We charge a percentage from the savings.</p>
               </div>
             </div>
           </div>
@@ -145,9 +144,9 @@ const BasementParking = () => {
             <img src="../images/basement-parking/retrofit.webp" alt="" className="1" />
             <div className="infotext3">
               <div className=" mt-[5em] mb-[2em]">
-                <h1 className=" text-2xl ml-2">Retrofit Solutions</h1>
+                <h1 className=" text-2xl ml-2 lg:text-5xl lg:ml-5">Retrofit Solutions</h1>
                 <br />
-                <p className=" font-extralight ml-2">Our devices are designed to be retrofit, allowing easy installation and immediate savings of up to 50% on your electricity bill using our ESDs.</p>
+                <p className=" text-2xl font-extralight ml-2 lg:ml-5">Our devices are designed to be retrofit, allowing easy installation and immediate savings of up to 50% on your electricity bill using our ESDs.</p>
               </div>
             </div>
           </div>
@@ -155,10 +154,10 @@ const BasementParking = () => {
       </div>
       <div className="page4">
         <div className="aboutus">
-          <img src="../images/basement-parking/about.webp" alt="" className="pl-5 pr-5" />
+          <img src="../images/basement-parking/about.webp" alt="" className="pl-5 pr-5 lg:pt-[5em]" />
         </div>
         <div className="aboutusinfo">
-          <h1 className=" font-bold text-3xl m-10 text-white">About Us</h1>
+          <h1 className=" font-normal text-3xl lg:text-6xl m-10 text-white">About Us</h1>
           <br />
           <p className=" ml-5 mr-5 text-white">
             Our climate tech business operates in the Gurgaon Division, HR, India. We focus on using technology to address environmental challenges.
@@ -167,7 +166,7 @@ const BasementParking = () => {
             We aim to offer practical solutions that help reduce the impact of climate change. Our team is dedicated and works to create a sustainable future.
           </p>
           <form action="/submit" method="post">
-            <input type="submit" value="Contact" className=" mt-10 ml-[25%] px-12 py-6 bg-transparent border-x-2 border-y-2 border-x-white border-y-white font-semibold rounded-lg focus:outline-none mb-16 text-white " />
+            <input type="submit" value="Contact" className=" lg:px-32 lg:py-8 lg:text-2xl lg:ml-[20em] mt-10 ml-[25%] px-12 py-6 bg-transparent border-x-2 border-y-2 border-x-white border-y-white font-semibold rounded-lg focus:outline-none mb-16 text-white " />
           </form>
         </div>
       </div>
