@@ -9,11 +9,13 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
+import Script from 'next/script';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "FirsThing IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
   description: "At FirsThing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and Commercial Infrastructure, with the tools to achieve unparalleled energy efficiency and sustainability.",
+
   // other metadata
 };
 
@@ -27,12 +29,28 @@ export default function Home() {
       <AboutSectionTwo />
       <Video />
       <Brands />
-      
-      
+
+
       <Testimonials />
       {/* <Pricing /> */}
       {/* <Blog /> */}
       <Contact />
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-TC0XQ2HFT8"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TC0XQ2HFT8');
+          `,
+        }}
+      />
     </>
   );
 }
