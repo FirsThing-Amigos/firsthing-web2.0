@@ -103,16 +103,16 @@ const BasementParking = () => {
         </div>
       </div>
       <div className="page2">
-        <img src="../images/carousal.webp" alt="" className="img1" />
-        <div className="carousal1">
-          <div className="flex">
-            <img src="../images/partner/1.png" alt="" className="" />
-            <img src="../images/partner/asf3.png" alt="" className="" />
-            <img src="../images/partner/settl.svg" alt="" className="" />
+        <img src="../images/carousal.webp" alt="" className=" h-[32em] opacity-40" />
+        <div className="">
+          <div className="">
+            <img src="../images/partner/1.png" alt="" className="h-[6em] ml-[4em] mt-[5em]" />
+            <img src="../images/partner/asf3.png" alt="" className="h-[5em] ml-[6.5em] mt-[15em]" />
+            <img src="../images/partner/settl.svg" alt="" className="h-[4em] ml-[4em] mt-[25em]" />
           </div>
         </div>
       </div>
-      <div className="page3">
+      <div className="mt-[20em]">
         <h1 className="heading">Real-Time Monitoring</h1>
         <div className=" images">
           <div className="info">
@@ -146,7 +146,7 @@ const BasementParking = () => {
               <div className=" mt-[5em] mb-[2em]">
                 <h1 className=" text-2xl ml-2 lg:text-5xl lg:ml-5">Retrofit Solutions</h1>
                 <br />
-                <p className=" text-2xl font-extralight ml-2 lg:ml-5">Our devices are designed to be retrofit, allowing easy installation and immediate savings of up to 50% on your electricity bill using our ESDs.</p>
+                <p className=" text-xl font-extralight ml-2 lg:ml-5">Our devices are designed to be retrofit, allowing easy installation and immediate savings of up to 50% on your electricity bill using our ESDs.</p>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ const BasementParking = () => {
         </div>
       </div>
       <div className="page7">
-        <div className="carousal3">
+        {/* <div className="carousal3">
           <div
             className="carousal3"
             onTouchStart={handleTouchStart3}
@@ -225,6 +225,13 @@ const BasementParking = () => {
               ))}
             </div>
           </div>
+        </div> */}
+        <div className="reviews">
+          <div className="ansh">
+            <img src="" alt="" className="ansh" />
+            <h1 className="text-2xl font-bold text-white">Ansh</h1>
+          </div>
+
         </div>
       </div>
       <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">

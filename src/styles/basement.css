@@ -1,7 +1,7 @@
 .page1 {
     position: relative;
     width: 100%;
-    height:30em;
+    height:42em;
   }
   .page1 img {
     position: absolute;
@@ -16,7 +16,7 @@
     color: white;
     width: 80%;
     padding: 20px;
-    margin: 7em  1em;
+    margin: 10em  1em;
   }
   
   .text1 {
@@ -41,7 +41,6 @@
     cursor: pointer;
   }
   .page2 {
-    overflow:hidden;
     position: relative;
     width: 100%;
     height:15em;
@@ -51,10 +50,6 @@
   }
   .page2 img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
   }
   .heading{
@@ -100,32 +95,14 @@
   .infotext3{
     margin: 1px 0px;
     position: relative;
-    bottom: 22.5em;
+    bottom: 19.3em;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background */
     color: white; /* Ensure text is visible */
   }
-  .carousal1 {
-  }
-  
-  .carousal1 img {
-    min-width: 100%;
-    height: auto;
-    animation: slide 20s linear infinite;
-  }
-  
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
   .page5{
-    position: relative;
     width: 100%;
     height:25em;
   }
