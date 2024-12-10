@@ -7,8 +7,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
-  description: "FIRSTHING IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
+  title: "Blog Details Page | FirsThing IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
+  description: "FirsThing IS TO MAKE OUR EARTH GREENER FOR OUR FUTURE GENERATIONS.",
   // other metadata
 };
 

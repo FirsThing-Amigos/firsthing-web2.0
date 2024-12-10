@@ -12,7 +12,7 @@ const checkIcon = (
 const AboutSectionTwo = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+      <span className="mr-4 flex h-[30px] w-[30px] rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
       {text}
@@ -28,15 +28,15 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <LottieImage className={" m-auto max-w-full h-auto max-h-full sm:max-h-fit sm:h-auto sm:max-w-xl"} src={animationData} width={600} height={600} />
-
+           
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <SectionTitle
-              title="How It works"
-              paragraph="At Firsthing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and real estate, with the tools to achieve unparalleled energy efficiency and sustainability."
-              mb="44px"
-            />
+          <SectionTitle
+                title="How It works"
+                paragraph="At FirsThing, we pioneer IoT-based energy management solutions to empower businesses, particularly in co-living spaces and Commercial Infrastructure, with the tools to achieve unparalleled energy efficiency and sustainability."
+                mb="44px"
+              />
             {/* <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -67,37 +67,29 @@ const AboutSectionTwo = () => {
               </div>
             </div> */}
             <div
-              className="mb-12 max-w-[570px] lg:mb-0"
-              data-wow-delay=".15s"
-            >
-              <div className="mx-[-12px] flex flex-wrap">
-                {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Site Audit" />
-                    <List text="Automation" />
-                    <List text="Saving Money" />
-                  </div> */}
+                className="mb-12 max-w-[570px] lg:mb-0"
+                data-wow-delay=".15s"
+              >
+                <div className="mx-[-12px] flex flex-wrap">
                 <div className="">
-                  <div className="text-3xl opacity-70">
+                  <div className="xl:text-3xl text-xl opacity-70">
                     <div className="flex items-center">
                       <img className=" h-[10vh] p-5" src="../images/logo/audit.png"></img>
                       <h1 className="p-5">Site Audit</h1>
                     </div>
-                    <br />
                     <div className="flex items-center">
                       <img className=" h-[10vh] p-5" src="../images/logo/agreement.svg"></img>
                       <h1 className="p-5">Automation</h1>
                     </div>
-                    <br />
                     <div className="flex items-center">
                       <img className=" h-[10vh] p-5" src="../images/logo/sustainability.png"></img>
                       <h1 className="p-5">Saving Money</h1>
                     </div>
-                    <br />
                   </div>
                 </div>
-
+ 
+                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>

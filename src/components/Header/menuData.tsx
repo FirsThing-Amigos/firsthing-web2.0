@@ -1,30 +1,37 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
+   {
     id: 1,
-    title: "Home",
-    path: "/",
-    newTab: false,
-  },
-  {
-    id: 2,
-    title: "About",
+    title: "About us",
     path: "/about",
     newTab: false,
   },
   {
-    id: 33,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
-  },
-  {
-    id: 3,
+    id: 2,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
+  {
+    id: 3,
+    title: "Analytics",
+    path: "https://Analytics.FirsThing.earth/",
+    newTab: false,
+  },
+  {
+    id: 4,
+    title: "Basment Parking",
+    path: "/basement-parking",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Login",
+    path: "https://FirsThing.earth/user/Login",
+    newTab: false,
+  },
+  
   // {
   //   id: 4,
   //   title: "Pages",
